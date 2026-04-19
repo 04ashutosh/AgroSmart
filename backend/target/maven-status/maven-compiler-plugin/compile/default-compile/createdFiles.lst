@@ -1,1 +1,13 @@
+com\agrosmart\controller\FarmController.class
+com\agrosmart\config\KafkaConfig.class
+com\agrosmart\service\ProducerService.class
+com\agrosmart\model\User.class
+com\agrosmart\service\ConsumerService.class
+com\agrosmart\repository\FarmRepository.class
+com\agrosmart\model\Recommendation.class
+com\agrosmart\repository\RecommendationRepository.class
+com\agrosmart\repository\UserRepository.class
+com\agrosmart\service\WeatherService.class
+com\agrosmart\model\Farm.class
 com\agrosmart\AgroSmartApplication.class
+com\agrosmart\dto\FarmEvent.class

@@ -7,7 +7,7 @@ services:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
     ports:
-      - "2181-2181"
+      - "2181:2181"
 
   kafka:
     image: confluentinc/cp-kafka:7.3.0
@@ -31,6 +31,6 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: agrosmart_db
     ports:
-      - "3306-3306"
+      - "3307:3306"
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql

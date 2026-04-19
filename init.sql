@@ -12,7 +12,8 @@ CREATE TABLE users(
 CREATE TABLE farms(
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     user_id BIGINT,
-    location VARCHAR(255),
+    latitude DOUBLE,
+    longitude DOUBLE,
     soil_type VARCHAR(100),
     crop_type VARCHAR(100),
     FOREIGN KEY (user_id) REFERENCES users(id)
@@ -22,7 +23,7 @@ CREATE TABLE recommendations(
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     farm_id BIGINT,
     irrigation_advice TEXT,
-    fertizer_suggestion TEXT,
-    created_at TIMSETAMP DEFAULT CURRENT_TIMESTAMP,
+    fertilizer_suggestion TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (farm_id) REFERENCES farms(id)
 );

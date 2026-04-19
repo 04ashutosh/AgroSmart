@@ -1,2 +1,13 @@
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\controller\FarmController.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\model\Recommendation.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\repository\UserRepository.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\model\User.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\service\WeatherService.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\service\ConsumerService.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\service\ProducerService.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\repository\RecommendationRepository.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\repository\FarmRepository.java
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\config\KafkaConfig.java
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\AgroSmartApplication.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\dto\FarmEvent.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\model\Farm.java
