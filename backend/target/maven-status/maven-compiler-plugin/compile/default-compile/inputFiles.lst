@@ -10,4 +10,5 @@ D:\agrosmart-platform\backend\src\main\java\com\agrosmart\repository\FarmReposit
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\config\KafkaConfig.java
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\AgroSmartApplication.java
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\dto\FarmEvent.java
+D:\agrosmart-platform\backend\src\main\java\com\agrosmart\controller\RecommendationController.java
 D:\agrosmart-platform\backend\src\main\java\com\agrosmart\model\Farm.java

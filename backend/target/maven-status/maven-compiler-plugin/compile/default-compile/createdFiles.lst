@@ -9,5 +9,6 @@ com\agrosmart\repository\RecommendationRepository.class
 com\agrosmart\repository\UserRepository.class
 com\agrosmart\service\WeatherService.class
 com\agrosmart\model\Farm.class
+com\agrosmart\controller\RecommendationController.class
 com\agrosmart\AgroSmartApplication.class
 com\agrosmart\dto\FarmEvent.class
